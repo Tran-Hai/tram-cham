@@ -8,7 +8,8 @@ import { motion } from 'framer-motion';
 const navItems = [
   { name: 'Trang chủ', href: '/' },
   { name: 'Sản phẩm', href: '/products' },
-  { name: 'Tạo lời chúc', href: '/create-wish' },
+  { name: 'Tạo QR', href: '/create-qr' },
+  { name: 'Lời chúc', href: '/loi-chuc' },
   { name: 'Feedback', href: '/feedback' },
   { name: 'Về chúng tôi', href: '/about' },
   { name: 'Liên hệ', href: '/contact' },

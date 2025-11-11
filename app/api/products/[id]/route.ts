@@ -20,7 +20,9 @@ const mockProducts: Product[] = [
   { id: '6', name: 'Gel Tắm Nước Hoa Dưỡng Da Rome', price: 189000, description: 'Hương thơm mạnh mẽ, nam tính, thể hiện đẳng cấp phái mạnh.', imageUrl: 'https://drive.google.com/uc?id=1_V2lQGINfHKpF4aCtPhCvXy5ptSNKCTy' },
   { id: '7', name: 'Gel Tắm Nước Hoa Dưỡng Da 3in1 Caesar’s', price: 229000, description: 'Sản phẩm 3 trong 1 tiện lợi, vừa là sữa tắm, dầu gội và sữa rửa mặt.', imageUrl: 'https://drive.google.com/uc?id=1_bETAkjKrKqhEnMl9n6JdkAf7OBgLsXI' },
   { id: '8', name: 'Bodymist Love Charm( 250ml)', price: 249000, description: 'Xịt thơm toàn thân với hương Love Charm ngọt ngào, quyến rũ.', imageUrl: 'https://drive.google.com/uc?id=1JArzenjjKVbcucCCrJyoMvZbtkg0mZK9' },
-  { id: '9', name: 'Bodymist Caesar’ Legend(250ml)', price: 249000, description: 'Xịt thơm toàn thân với hương Caesar mạnh mẽ, nam tính.', imageUrl: 'https://drive.google.com/uc?id=1yB-Lwp95HzUKM8V1Jy_tHmDcLXbHGyZj' },
+  { id: '9', name: "Bodymist Caesar' Legend(250ml)", price: 249000, description: 'Xịt thơm toàn thân với hương Caesar mạnh mẽ, nam tính.', imageUrl: 'https://drive.google.com/uc?id=1yB-Lwp95HzUKM8V1Jy_tHmDcLXbHGyZj' },
+  { id: '10', name: 'Bodymist Siena(250ml)', price: 249000, description: 'Xịt thơm toàn thân với hương Siena ấm áp, nồng nàn.', imageUrl: 'https://drive.google.com/uc?export=download&id=1_CFcbBnuNsTpg_i9t-z28xbmpnACMdv_' },
+  { id: '11', name: 'Bodymist PomPeii( 250ml)', price: 249000, description: 'Xịt thơm toàn thân với hương PomPeii sang trọng, bí ẩn.', imageUrl: 'https://drive.google.com/uc?export=download&id=11lAfkPF20TerYjrf1VJ-7HJZ6eZEaCqy' },
 ];
 
 export async function GET(
